@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="30dp"
+        android:onClick="drawShapes"
         android:text="Shapes" />
 
     <Button
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="30dp"
+        android:onClick="screenInfo"
         android:text="Screen Info" />
 
     <Button
@@ -43,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="30dp"
+        android:onClick="drawCircles"
         android:text="Draw Circles" />
 
     <Button
@@ -51,5 +54,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="30dp"
+        android:onClick="drawBitmap"
         android:text="Draw Bitmap Image" />
 </LinearLayout>

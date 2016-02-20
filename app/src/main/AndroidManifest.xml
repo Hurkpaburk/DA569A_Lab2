@@ -24,7 +24,14 @@
         </activity>
         <activity
             android:name=".ScreenInfo"
-            android:label="@string/title_activity_screen_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hurk.da569a_lab2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DrawCircles"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <meta-data
@@ -32,5 +39,4 @@
                 android:value="com.hurk.da569a_lab2.MainActivity" />
         </activity>
     </application>
-
 </manifest>

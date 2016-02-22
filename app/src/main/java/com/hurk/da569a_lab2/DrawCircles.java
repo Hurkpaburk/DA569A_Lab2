@@ -15,7 +15,7 @@ import android.view.Window;
 import java.util.Random;
 
 /**
- * Example for Screen information gives by course literature
+ * Based on example for Screen information gives by course literature
  */
 public class DrawCircles extends Activity {
 
@@ -37,7 +37,7 @@ public class DrawCircles extends Activity {
 
             DisplayMetrics displayMetrics = new DisplayMetrics();
             getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
-            screenSize = new Point(displayMetrics.widthPixels - 20, displayMetrics.heightPixels - 20);
+            screenSize = new Point(displayMetrics.widthPixels, displayMetrics.heightPixels);
             bufferBitmap = Bitmap.createBitmap(screenSize.x, screenSize.y, Bitmap.Config.ARGB_8888);
             bufferCanvas = new Canvas(bufferBitmap);
         }

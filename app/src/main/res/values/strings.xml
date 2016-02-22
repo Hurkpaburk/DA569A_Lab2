@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Lab 2</string>
-    <string name="game_name">GAME NAME</string>
+    <string name="game_name">Choose your destiny:</string>
     <string name="screen_info">Screen Information:</string>
     <string name="title_activity_screen_info">Temp</string>
 </resources>

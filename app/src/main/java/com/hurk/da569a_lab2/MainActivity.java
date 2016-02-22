@@ -23,4 +23,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DrawCircles.class);
         startActivity(intent);
     }
+
+    public void drawShapes(View view) {
+        Intent intent = new Intent(this, Shapes.class);
+        startActivity(intent);
+    }
+
+    public void drawBitmap(View view) {
+        Intent intent = new Intent(this, DrawBitmap.class);
+        startActivity(intent);
+    }
 }

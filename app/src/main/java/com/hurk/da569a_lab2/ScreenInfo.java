@@ -12,7 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Example for Screen information gives by course literature
+ * Based on example for Screen information gives by course literature
  */
 public class ScreenInfo extends Activity {
 
